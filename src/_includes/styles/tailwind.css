@@ -6,6 +6,9 @@
   h1 {
     @apply text-4xl text-center font-mono mb-6;
   }
+  h2 {
+    @apply text-2xl text-center font-mono mb-4;
+  }
 }
 
 scrollspy-nav {
