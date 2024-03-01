@@ -4,10 +4,10 @@
 
 @layer base {
   h1 {
-    @apply text-4xl text-center font-mono mb-6;
+    @apply text-4xl text-center font-mono mb-6 font-semibold;
   }
   h2 {
-    @apply text-2xl text-center font-mono mb-4;
+    @apply text-3xl text-center font-mono mb-4 font-semibold;
   }
 }
 
