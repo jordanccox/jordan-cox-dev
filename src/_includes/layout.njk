@@ -19,6 +19,20 @@ description: Building innovative and user-friendly web experiences. Hire a passi
   <body>
     {{ content | safe }}
 
+    <footer class="dark dark:bg-[#252e38] ">
+      <div class="container mx-auto py-4">
+        <hr class="py-2 dark:border-gray-400" />
+        <span class="text-sm sm:text-center dark:text-gray-400"
+          >©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          <a href="/" class="hover:underline">JordanCox.dev</a>. All Rights
+          Reserved.
+        </span>
+      </div>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
     <script src="./bundle.js" type="text/javascript"></script>
   </body>
