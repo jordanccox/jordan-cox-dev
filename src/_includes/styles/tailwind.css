@@ -8,7 +8,9 @@ scrollspy-nav {
   display: flex;
   overflow-x: auto;
   overscroll-behavior-x: contain;
-  background-color: var(--scrollspy-nav-background-color, Canvas);
+  /* background-color: var(--scrollspy-nav-background-color, Canvas);
+  
+   background-color: #0f172a; */
 }
 
 scrollspy-nav > * {
@@ -48,9 +50,11 @@ scrollspy-nav [data-marker] {
 }
 
 .custom-nav {
-  --scrollspy-nav-marker-top: 0;
-  --scrollspy-nav-marker-height: 100%;
-  --scrollspy-nav-marker-color: papayawhip;
+  --scrollspy-nav-marker-bottom: 0;
+  --scrollspy-nav-marker-height: 10%;
+  --scrollspy-nav-link-color-active: white;
+  --scrollspy-nav-marker-color: #9ca3af;
+  --scrollspy-nav-background-color: black;
   --scrollspy-nav-marker-duration: 300ms;
   --scrollspy-nav-marker-ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
