@@ -45,7 +45,7 @@ scrollspy-nav [data-marker] {
   background-color: var(--scrollspy-nav-marker-color, currentcolor);
   z-index: -1;
   width: 1px;
-  height: var(--scrollspy-nav-marker-height, 4px);
+  height: var(--scrollspy-nav-marker-height, 4px); /* 4px*/
   transform-origin: left;
 }
 
@@ -53,7 +53,7 @@ scrollspy-nav [data-marker] {
   --scrollspy-nav-marker-bottom: 0;
   --scrollspy-nav-marker-height: 10%;
   --scrollspy-nav-link-color-active: white;
-  --scrollspy-nav-marker-color: #9ca3af;
+  --scrollspy-nav-marker-color: white;
   --scrollspy-nav-background-color: black;
   --scrollspy-nav-marker-duration: 300ms;
   --scrollspy-nav-marker-ease: cubic-bezier(0.22, 1, 0.36, 1);
