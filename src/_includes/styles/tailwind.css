@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-4xl text-center font-mono mb-6;
+  }
+}
+
 scrollspy-nav {
   position: sticky;
   top: 0;

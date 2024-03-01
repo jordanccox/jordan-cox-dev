@@ -14,8 +14,14 @@
   </head>
   <body>
     
-<div class="flex sm:flex-row flex-col dark dark:bg-[#2B3035] dark:text-gray-400">
-  <a href="/" class="sm:my-4 mt-2 text-lg text-white font-mono hover:underline basis-1/2 text-center my-0">JordanCox.dev</a>
+<div
+  class="flex sm:flex-row flex-col dark dark:bg-[#2B3035] dark:text-gray-400 sticky top-0 overflow-x-auto overscroll-x-contain z-30"
+>
+  <a
+    href="/"
+    class="sm:my-4 mt-2 text-lg text-red-500 font-mono hover:underline basis-1/2 text-center my-0"
+    >Jordan<span class="text-white">Cox</span>.dev</a
+  >
   <scrollspy-nav
     role="navigation"
     aria-label="Page section navigation"
@@ -38,8 +44,41 @@
   </scrollspy-nav>
 </div>
 <main class="dark dark:bg-[#212529] dark:text-gray-200">
-  <section id="about" class="container bg-transparent py-12">
-    <h1 class="text-4xl text-center">Hello</h1>
+  <section
+    id="about"
+    class="container mx-auto dark:bg-transparent py-12 relative overflow-auto"
+  >
+    <h1>Full Stack Web Developer</h1>
+    <div class="flex flex-col-reverse md:flex-row justify-center">
+      <p class="md:w-[50%] mt-6 md:mt-0 mx-8 md:mx-0">
+        👋 Hey, welcome to my GitHub! 📖 About me I've had a passion for
+        computers since I was a kid. I first stumbled into coding when I was
+        about 10 years old and my dad, who owned a web marketing agency,
+        introduced me to HTML. I started teaching myself to build websites using
+        W3Schools and soon began working on projects for my dad's company. After
+        high school, I joined the Colorado Army National Guard, where I served
+        for 6 years. I was honorably discharged in July, 2023. That same month,
+        I began Parsity.io, a full stack web development bootcamp. Since then, I
+        have been building frontend and backend projects using JavaScript,
+        TypeScript, React + Redux, and Node.js. 🔧 What I'm working on... I have
+        built a number of projects in vanilla JavaScript, React, and React +
+        Redux. I'm most interested in backend development, unit testing, and
+        system design. Currently, I'm building a full stack construction
+        management application with Express and React. On the side, I'm learning
+        Rust and working on websites as a freelancer. You can check out my
+        pinned projects to see some of the things I've built that I'm most proud
+        of.
+      </p>
+      <div class="md:float-right mx-8">
+        <div class="relative w-auto">
+          <image
+            src="../media/bio-img.jpg"
+            class="rounded-full max-h-72 object-cover aspect-square mx-auto"
+            alt=""
+          ></image>
+        </div>
+      </div>
+    </div>
   </section>
 </main>
 
