@@ -9,6 +9,9 @@
   h2 {
     @apply text-3xl text-center font-mono mb-4 font-semibold;
   }
+  h3 {
+    @apply text-4xl text-center font-mono mb-4 font-medium;
+  }
 }
 
 scrollspy-nav {
