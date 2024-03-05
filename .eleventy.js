@@ -24,6 +24,7 @@ module.exports = function (config) {
   config.addNunjucksAsyncFilter("postcss", postcssFilter);
   config.addPassthroughCopy("./media");
   config.addPassthroughCopy("./src/bundle.js");
+  config.addPassthroughCopy("./src/fslightbox.js");
   config.addPlugin(eleventyNavigationPlugin);
 
   return {
