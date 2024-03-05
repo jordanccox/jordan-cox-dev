@@ -7,31 +7,17 @@ description: Building innovative and user-friendly web experiences. Hire a passi
 <div
   class="flex sm:flex-row flex-col dark dark:bg-[#2B3035] dark:text-gray-400 sm:hidden"
 >
-  {#
-  <a
-    href="/"
-    class="sm:my-4 mt-4 text-2xl text-red-500 font-mono hover:underline basis-1/2 text-center my-0"
-    >Jordan<span class="text-white">Cox</span>.dev</a
-  >
-  #}
-  <a
-    href="/" class="mx-auto mt-4 max-w-44 basis-1/2"><img
-    src="../media/JCD Logo_white.png"
+  <a href="/" class="mx-auto mt-4 max-w-44 basis-1/2"
+    ><img src="../media/JCD Logo_white.png"
   /></a>
 </div>
 <div
   class="flex sm:flex-row flex-col dark dark:bg-[#2B3035] dark:text-gray-400 sticky top-0 overflow-x-auto overscroll-x-contain z-30"
 >
-  {#
   <a
     href="/"
-    class="sm:my-4 mt-4 text-2xl text-red-500 font-mono hover:underline basis-1/2 text-center my-0 hidden sm:block"
-    >Jordan<span class="text-white">Cox</span>.dev</a
-  >
-  #}
-  <a href="/" class="mx-auto sm:my-4 my-0 mt-4 max-w-44 basis-1/2 hidden sm:block"><img
-    src="../media/JCD Logo_white.png"
-    class=""
+    class="mx-auto sm:my-4 my-0 mt-4 max-w-44 basis-1/2 hidden sm:block"
+    ><img src="../media/JCD Logo_white.png" class=""
   /></a>
   <scrollspy-nav
     role="navigation"
@@ -59,9 +45,9 @@ description: Building innovative and user-friendly web experiences. Hire a passi
     id="about"
     class="container-fluid mx-auto dark:bg-transparent py-12 relative overflow-auto"
   >
-    <h1>Full Stack Web Developer</h1>
+    <h1 class="px-4">Full Stack Web Developer</h1>
     <div class="flex flex-col-reverse md:flex-row justify-center">
-      <p class="md:w-[50%] mt-6 md:mt-0 mx-8 md:mx-0 text-lg">
+      <p class="md:w-[50%] 2xl:w-[30%] mt-6 md:mt-0 mx-8 md:mx-0 text-lg">
         👋 Hey, welcome to my GitHub! 📖 About me I've had a passion for
         computers since I was a kid. I first stumbled into coding when I was
         about 10 years old and my dad, who owned a web marketing agency,
@@ -95,10 +81,10 @@ description: Building innovative and user-friendly web experiences. Hire a passi
   <!-- Services -->
   <section
     id="services"
-    class="container-fluid mx-auto dark:bg-[#252e38] py-12 relative overflow-auto text-lg"
+    class="container-fluid mx-auto dark:bg-[#162130] py-12 relative overflow-auto text-lg"
   >
-    <h1>Services</h1>
-    <div class="md:mx-[22%] mx-8">
+    <h1 class="px-4">Services</h1>
+    <div class="md:mx-[22%] 2xl:mx-[30%] mx-8">
       I'm a problem solver. My job is to figure out what your problem is and how
       to most efficiently use technology to solve it for you.
 
@@ -123,28 +109,13 @@ description: Building innovative and user-friendly web experiences. Hire a passi
     id="projects"
     class="container-fluid mx-auto dark:bg-[#212529] py-12 relative overflow-auto text-lg"
   >
-    <h1>Projects</h1>
+    <h1 class="px-4">Projects</h1>
 
     <div
-      class="grid gird-cols-1 md:grid-cols-2 gap-4 mx-8 md:mx-[12%] lg:mx-[22%]"
+      class="flex flex-col md:flex-row md:row-span-3 gap-4 justify-center items-center"
     >
-      {# mx-8 #}
-      <div class="">
-        <img
-          class="h-auto max-w-full rounded-lg aspect-[4/3] object-top object-cover"
-          src="../media/wellspring/wellspringhomeservices.com-md.png"
-          alt=""
-        />
-      </div>
-      <div>
-        <img
-          class="h-auto max-w-full rounded-lg aspect-[4/3] object-top object-cover"
-          src="../media/romano/romano-law-firm-new.netlify.app-md.png"
-          alt=""
-        />
-      </div>
       <div
-        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        class="max-w-md bg-white border border-gray-200 rounded-lg shadow dark:bg-[#162130] dark:border-gray-700"
       >
         <a href="#">
           <img
@@ -158,18 +129,64 @@ description: Building innovative and user-friendly web experiences. Hire a passi
             <h5
               class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
             >
-              Noteworthy technology acquisitions 2021
+              Wellspring Home Services - Custom Website Design & Development
             </h5>
           </a>
           <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order.
+            JavaScript | Node.js | Tailwind CSS | HTML | CSS | Eleventy Static
+            Site Generator
           </p>
           <a
             href="#"
-            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-white"
           >
-            Read more
+            View Project
+            <svg
+              class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="max-w-md bg-white border border-gray-200 rounded-lg shadow dark:bg-[#162130] dark:border-gray-700"
+      >
+        <a href="#">
+          <img
+            class="rounded-t-lg h-auto max-w-full aspect-[4/3] object-top object-cover"
+            src="../media/romano/romano-law-firm-new.netlify.app-md.png"
+            alt=""
+          />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              The Romano Law Firm - Custom Website Design & Development
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            JavaScript | Node.js | Tailwind CSS | HTML | CSS | Eleventy Static
+            Site Generator
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-white"
+          >
+            View Project
             <svg
               class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
               aria-hidden="true"
@@ -194,8 +211,8 @@ description: Building innovative and user-friendly web experiences. Hire a passi
   <!-- Contact -->
   <section
     id="contact"
-    class="container-fluid mx-auto dark:bg-[#252e38] py-12 relative overflow-auto text-lg"
+    class="container-fluid mx-auto dark:bg-[#162130] py-12 relative overflow-auto text-lg"
   >
-    <h1>Contact</h1>
+    <h1 class="px-4">Contact</h1>
   </section>
 </main>
